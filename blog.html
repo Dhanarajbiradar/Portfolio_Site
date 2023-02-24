@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/Style.css">
+  <style>
+    body {
+      font-family: Arial;
+      background: #b8c5dc;
+      padding-top: 12px;
+
+    }
+
+    .footer h2 {
+      padding-bottom: 11px;
+      color: #2b3963;
+      text-align: -webkit-center;
+      text-shadow: 2px 2px 5px red;
+    }
+
+    .header {
+      padding: 3px;
+      font-size: 30px;
+      text-align: center;
+      background: #beacdc;
+      margin-left: 141px;
+      box-shadow: 20px 20px 20px 9px rgb(74 10 146 / 69%);
+      border-radius: 14px;
+      width: 75vw;
+
+    }
+
+
+    .leftcolumn {
+      float: left;
+      width: 75%;
+      margin-left: 141px;
+      padding-top: 13px;
+
+    }
+
+
+    .rightcolumn {
+      float: left;
+      width: 25%;
+      padding-left: 20px;
+    }
+
+    .blogimg {
+
+      background-image: url("images/blogImg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 70vw;
+      padding: 20px;
+      border-radius: 11px;
+    }
+
+
+
+    .card {
+      background: #beacdc;
+      padding: 20px;
+      margin-top: 20px;
+      box-shadow: 20px 20px 20px 9px rgb(74 10 146 / 69%);
+      border-radius: 14px;
+      width: 73vw;
+    }
+
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+
+    }
+
+
+    .footer {
+      padding-top: 1px;
+      text-align: center;
+
+      margin-top: 20px;
+      margin-left: 141px;
+    }
+
+
+    @media screen and (max-width: 800px) {
+
+      .leftcolumn,
+      .rightcolumn {
+
+        padding: 0;
+        margin-left: 54px;
+        width: 82vw;
+        padding-top: 13px;
+      }
+    }
+
+    @media screen and (max-width: 1024px) {
+
+
+      /* .linklogo img {
+
+        width: 12%;
+        margin-left: -224px;
+      } */
+
+      .footer {
+        padding: 2px;
+        text-align: center;
+
+        margin-top: 20px;
+        margin-left: 54px;
+      }
+
+      .blogimg {
+
+        background-image: url("images/blogImg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 65vw;
+        padding: 20px;
+      }
+
+      .header {
+        padding: 16px;
+        font-size: 24px;
+        text-align: center;
+        background: #e7cfcf;
+        width: 76vw;
+
+        margin-left: 54px;
+
+      }
+
+      body {
+        font-family: Arial;
+
+        padding: 0px;
+        padding-top: 12px;
+        background: #f1f1f1;
+      }
+
+      .card {
+        background: #beacdc;
+        padding: 20px;
+        margin-top: 20px;
+        box-shadow: 20px 20px 20px 9px rgb(74 10 146 / 69%);
+        border-radius: 14px;
+        width: 74vw;
+      }
+
+
+      .column #git {
+        float: left;
+        width: 17.33%;
+        padding: 5px;
+        margin-top: -7px;
+        margin-left: 12px;
+        margin-right: 17px;
+
+      }
+
+      .column #insta {
+        float: left;
+        width: 15.33%;
+        /* padding: 5px; */
+
+      }
+
+      .column #linked {
+        float: left;
+        width: 12.33%;
+        padding: 5px;
+        /* width: 10vh; */
+        margin-left: 77px;
+        background-color: antiquewhite;
+        border-radius: 14px;
+      }
+
+      /* Clearfix (clear floats) */
+      .line::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+    }
+
+    @media screen and (min-width: 1024px) {
+
+
+
+      .column #git {
+        float: left;
+        width: 6.33%;
+        padding: 5px;
+        margin-top: -7px;
+        margin-right: 17px;
+        margin-left: 6px;
+
+      }
+
+      .column #insta {
+        float: left;
+        width: 6.33%;
+        /* padding: 5px; */
+
+      }
+
+      .column #linked {
+        float: left;
+        width: 5.33%;
+        padding: 5px;
+        /* width: 10vh; */
+        margin-left: 385px;
+
+      }
+
+      /* Clearfix (clear floats) */
+      .line::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+    }
+
+    .leftcolumn h5 {
+      float: right;
+    }
+
+    .mediacontaner {
+
+      background-color: #ecece1;
+    border-radius: 20px;
+    }
+
+    .mediacontaner #git {
+      width: 16px, 20px, 24px, and 32px;
+      display: flex;
+      float: left;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="sidebar sidebarGo">
+
+    <nav>
+      <ul>
+        <li><a href="portfolio.html">Home</a></li>
+        <li><a href="intro.html">My Intro</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+
+      </ul>
+    </nav>
+  </div>
+  <div class="mainblog">
+    <div class="hamburger">
+      <img class="ham" src="images/sidemenu-removebg-preview.png" alt="sidemenu" width="23">
+      <img class="cross" src="images/croselogo-removebg-preview.png" alt=" croselogo" width="40">
+    </div>
+    <div class="header">
+      <h3>My Blogs</h3>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+
+        <div class="card">
+          <h2>Learn coding-in fun way</h2><br />
+          <div class="blogimg" style="height:200px;">Image</div><br />
+          <p>With the advancement in Software technology people have now realized the importance of learning how to code
+            as a life skill.
+            Where you go and what job you have it’s always seen as in a positive light if you know how to work some code
+            even if that’s not your profession.
+            The best and probably most surprising part is that now you don’t have to get bored while learning coding.
+          </p>
+          <h5>Feb 19,2023</h5>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer">
+
+      <div class="card">
+        <div class="mediacontaner">
+        <!-- <h2>Follow Me</h2> -->
+            <div class="line">
+            <div class="column">
+              <a href="https://www.linkedin.com/in/dhanraj-biradar-4738a8236?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bl1lW24eKSxqz6PxsqKoHZA%3D%3D" target="_blank">
+                <img src="images/LinkedinLogo.png" alt="" id="linked">
+              </a>
+            </div>
+            <div class="column">
+              <a href="https://github.com/Dhanarajbiradar" target="_blank">
+                <img src="images/Gitlogo.png" alt="" id="git">
+              </a>
+            </div>
+            <div class="column">
+              <a href="https://instagram.com/dhanaraj_biradar_125?igshid=ZDdkNTZiNTM=" target="_blank">
+                <img src="images/instalogo.png" alt="" id="insta">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="javascript/Javascript.js"></script>
+</body>
+
+</html>
